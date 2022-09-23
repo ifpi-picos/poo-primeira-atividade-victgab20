@@ -14,6 +14,10 @@ public class Professor {
     }
 
 
+    public Professor(String string) {
+    }
+
+
     public String getNomeProfessor() {
         return nomeProfessor;
     }

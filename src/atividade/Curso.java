@@ -16,6 +16,9 @@ public class Curso {
         this.gratuito = gratuito;
     }
     
+    public Curso(String nomeCurso2, String nivelCurso, int parseInt, Professor p1) {
+    }
+
     public String getNomeCurso() {
         return nomeCurso;
     }
@@ -45,6 +48,13 @@ public class Curso {
     }
     public void setGratuito(boolean gratuito) {
         this.gratuito = gratuito;
+    }
+
+    public Aluno[] getAlunos() {
+        return null;
+    }
+
+    public void realizarMatricula(Aluno novoAluno) {
     }
 
     
